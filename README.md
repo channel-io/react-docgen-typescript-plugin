@@ -5,6 +5,10 @@
   <p>A webpack plugin to inject react typescript docgen information</p>
 </div>
 
+> NOTE:
+>
+> `react-docgen-typescript-plugin` is forked from the [original repository](https://github.com/hipstersmoothie/react-docgen-typescript-plugin) for customized usecase in Channel.io.
+
 ## Install
 
 ```sh
