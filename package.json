@@ -1,15 +1,11 @@
 {
-  "name": "react-docgen-typescript-plugin",
-  "version": "1.0.1",
+  "name": "@channel-io/react-docgen-typescript-plugin",
+  "version": "1.0.0",
   "description": "A webpack plugin to inject react typescript docgen information.",
   "license": "MIT",
-  "repository": "hipstersmoothie/react-docgen-typescript-plugin",
-  "author": "Andrew Lisowski <lisowski54@gmail.com>",
+  "repository": "channel-io/react-docgen-typescript-plugin",
+  "author": "Andrew Lisowski <lisowski54@gmail.com>, Channel Corp.",
   "main": "dist/index.js",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
-  },
   "scripts": {
     "build:example": "npm run build && webpack",
     "build": "tsc -p tsconfig.build.json",
@@ -85,8 +81,5 @@
       "prettier --write",
       "git add"
     ]
-  },
-  "auto": {
-    "extends": "hipstersmoothie"
   }
 }
